@@ -6,8 +6,8 @@ import java.util.List;
 
 
 import phone.nikolas.com.toko.base.BasePresenter;
-import phone.nikolas.com.rxjavasamplemvvm.model.Address;
-import phone.nikolas.com.rxjavasamplemvvm.model.People;
+import phone.nikolas.com.toko.model.Address;
+import phone.nikolas.com.toko.model.People;
 
 /**
  * Created by Pleret on 5/15/2017.

@@ -4,7 +4,8 @@ import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 import android.util.Log;
 
-import com.android.databinding.library.baseAdapters.BR;
+import phone.nikolas.com.toko.BR;
+
 
 /**
  * Created by Pleret on 5/15/2017.

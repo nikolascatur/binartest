@@ -4,7 +4,8 @@ import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 import android.view.View;
 
-import phone.nikolas.com.rxjavasamplemvvm.BR;
+import phone.nikolas.com.toko.BR;
+
 
 /**
  * Created by Pleret on 5/15/2017.
