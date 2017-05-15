@@ -7,6 +7,8 @@ import android.support.v7.widget.LinearLayoutManager;
 
 import java.util.List;
 
+import javax.inject.Inject;
+
 import phone.nikolas.com.toko.BaseApp;
 import phone.nikolas.com.toko.R;
 import phone.nikolas.com.toko.base.BaseActivity;
@@ -15,6 +17,10 @@ import phone.nikolas.com.toko.model.People;
 
 public class MainActivity extends BaseActivity<ActivityMainBinding,InputAddressViewModel,InputAddressPresenter>
         implements InputAdressView {
+
+    @Inject
+    RealmConnection realm;
+
 
     @Override
     protected void initInjection() {
