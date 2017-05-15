@@ -13,6 +13,7 @@ import phone.nikolas.com.toko.BaseApp;
 import phone.nikolas.com.toko.R;
 import phone.nikolas.com.toko.base.BaseActivity;
 import phone.nikolas.com.toko.databinding.ActivityMainBinding;
+import phone.nikolas.com.toko.db.RealmConnection;
 import phone.nikolas.com.toko.model.People;
 
 public class MainActivity extends BaseActivity<ActivityMainBinding,InputAddressViewModel,InputAddressPresenter>
